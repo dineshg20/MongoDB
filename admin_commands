@@ -1,0 +1,19 @@
+#Create Database
+use <database>;
+
+>> use mongo_database;
+
+show databases;
+  mongo_database
+  
+  
+#Drop Database
+use <database>;
+db.dropDatabase()
+
+#Current running opertions
+db.currentOp()
+
+
+#Delete a running process
+db.killOp(<opid>)
