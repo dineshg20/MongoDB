@@ -1,0 +1,6 @@
+''' This file will contains the mongo export commands '''
+
+
+# To fetch all the columns from the collection
+mongoexport  --db <database_name> --collection <collection_name>
+ 
